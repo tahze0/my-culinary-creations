@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tahze0/my-culinary-creations.git/static/css/main.ae5426d5.css",
+    "main.js": "/tahze0/my-culinary-creations.git/static/js/main.7e365850.js",
+    "static/js/453.16475784.chunk.js": "/tahze0/my-culinary-creations.git/static/js/453.16475784.chunk.js",
+    "index.html": "/tahze0/my-culinary-creations.git/index.html",
+    "main.ae5426d5.css.map": "/tahze0/my-culinary-creations.git/static/css/main.ae5426d5.css.map",
+    "main.7e365850.js.map": "/tahze0/my-culinary-creations.git/static/js/main.7e365850.js.map",
+    "453.16475784.chunk.js.map": "/tahze0/my-culinary-creations.git/static/js/453.16475784.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae5426d5.css",
+    "static/js/main.7e365850.js"
+  ]
+}
