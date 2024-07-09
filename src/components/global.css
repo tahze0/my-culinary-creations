@@ -1,0 +1,123 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFF5E6;
+  color: #4A3728;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  flex: 1;
+}
+
+.navbar {
+  background-color: #FF7F50;
+  padding: 15px 0;
+}
+
+.navbar-logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #4A3728;
+  color: white;
+  padding: 20px 0;
+  margin-top: auto;
+}
+
+.footer-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-subtitle {
+  margin-bottom: 0.5rem;
+}
+
+.footer-contact p {
+  margin: 0.5rem 0;
+}
+
+.btn {
+  background-color: #FF7F50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #FF6347;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card .text-orange-500 {
+  color: #FF7F50;
+}
+
+.card .text-orange-600 {
+  color: #FF6347;
+}
+
+.card .font-semibold {
+  font-weight: 600;
+}
+
+/* Featured Chefs Section */
+.chefs-card {
+  background-color: #FFFAF0; /* Light cream color for the background */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.chefs-card:hover {
+  background-color: #FFEBE6; /* Light coral color on hover */
+}
+
+.chefs-card .text-orange-600 {
+  color: #FF6347; /* Darker orange for text */
+}
+
+.chefs-card .font-semibold {
+  font-weight: 700; /* Slightly bolder font weight */
+}
